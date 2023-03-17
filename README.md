@@ -24,7 +24,7 @@ docker run -d --name jaeger \
 | --------------------------- | :-------: | ---------: | -------------------: |
 | Without Logging and Tracing |   small   |      15217 |          77804 ns/op |
 | Without Logging and Tracing |    big    |       3790 |         267474 ns/op |
-| Tracing                     |   small   |      13303 |          90404 ns/op |
-| Tracing                     |    big    |       3592 |         308865 ns/op |
+| With Tracing                |   small   |      13303 |          90404 ns/op |
+| With Tracing                |    big    |       3592 |         308865 ns/op |
 | With Logging                |   small   |       5738 |         240336 ns/op |
 | With Logging                |    big    |       1150 |        1689071 ns/op |
